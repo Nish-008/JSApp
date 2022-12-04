@@ -8,5 +8,9 @@ myButton.addEventListener('click',(e)=>
         const myLi = document.createElement('li');
         myLi.innerHTML = inputText.value;
         list.appendChild(myLi);
+
+        const mySpan = document.createElement('span');
+        mySpan.innerHTML = 'x';
+        myLi.appendChild(mySpan);
     }
 });

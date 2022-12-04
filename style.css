@@ -55,6 +55,7 @@ ul li{
     display: block;
     margin: 5px 0;
     box-shadow: -3px  6px 4px #222 ;
+    transition: 0.5s linear;
 }
 ul li span{
     position: absolute;
